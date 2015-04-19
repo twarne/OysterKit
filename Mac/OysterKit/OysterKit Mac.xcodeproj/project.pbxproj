@@ -39,6 +39,7 @@
 		42C2B2951977C38400098585 /* referenceOKScriptDefinition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42C2B2941977C38400098585 /* referenceOKScriptDefinition.txt */; };
 		42DAC17A196D3FC50062F91E /* LoopingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DAC179196D3FC50062F91E /* LoopingCharacters.swift */; };
 		42EFD385196D284C001944F3 /* stateTestLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD384196D284C001944F3 /* stateTestLoop.swift */; };
+		B2997F361AE34E18005A00C3 /* advancedParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2997F351AE34E18005A00C3 /* advancedParsingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,7 @@
 		42C2B2941977C38400098585 /* referenceOKScriptDefinition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = referenceOKScriptDefinition.txt; sourceTree = "<group>"; };
 		42DAC179196D3FC50062F91E /* LoopingCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingCharacters.swift; sourceTree = "<group>"; };
 		42EFD384196D284C001944F3 /* stateTestLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = stateTestLoop.swift; path = Tests/stateTestLoop.swift; sourceTree = "<group>"; };
+		B2997F351AE34E18005A00C3 /* advancedParsingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = advancedParsingTests.swift; path = Tests/advancedParsingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 				429A0F04196D7B6900BE28C0 /* stateTestKeywords.swift */,
 				4267D6921965ABDC00AF442F /* tokenizerTests.swift */,
 				4221038C19601B40001148F5 /* Supporting Files */,
+				B2997F351AE34E18005A00C3 /* advancedParsingTests.swift */,
 			);
 			path = OysterKitTests;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				4267D68D1965AB9E00AF442F /* stateTestRepeat.swift in Sources */,
 				4267D6931965ABDC00AF442F /* tokenizerTests.swift in Sources */,
 				4267D6911965ABC400AF442F /* stateTestDelimeter.swift in Sources */,
+				B2997F361AE34E18005A00C3 /* advancedParsingTests.swift in Sources */,
 				429A0F05196D7B6900BE28C0 /* stateTestKeywords.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

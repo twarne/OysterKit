@@ -44,7 +44,7 @@ public class RPNParser : StackParser{
         }
     }
     
-    func execute(){
+    public func execute(){
         let top = popToken() as! NumberToken
         println(top.numericValue)
     }

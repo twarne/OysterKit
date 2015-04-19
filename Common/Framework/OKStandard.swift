@@ -37,6 +37,7 @@ public let whiteSpaceString = " \t\r\n"
 public let lowerCaseLetterString = "abcdefghijklmnopqrstuvwxyz"
 public let upperCaseLetterString = lowerCaseLetterString.uppercaseString
 public let eotString = "\u{0004}"
+public let operatorsString = "+-*/"
 
 public class OKStandard{
     //Public
@@ -99,6 +100,9 @@ public class OKStandard{
         return Characters(from: lowerCaseLetterString+upperCaseLetterString+decimalDigitString+"_").token("word")
     }
     
+    public class var operators:TokenizationState{
+        return Characters(from: operatorsString).token(OperatorToken.createToken)
+    }
     
     public class var number:TokenizationState{
         let decimalDigits = LoopingCharacters(from:decimalDigitString)
